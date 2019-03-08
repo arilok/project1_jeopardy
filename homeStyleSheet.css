@@ -1,5 +1,8 @@
 body{
-	background-image: "intro.jpg";
+	background-image: url("intro.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	
 }
 
 h2{
