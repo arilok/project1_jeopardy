@@ -9,7 +9,7 @@
 
 <body>
 	<h1> Jeopredy! </h1>
-	<h2> Welcome $name </h2>
+	<h2> Welcome <?php print $_POST["player_name"] ?> </h2>
 
 	<table>
 		<tr>
