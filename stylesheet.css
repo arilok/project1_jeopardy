@@ -52,7 +52,13 @@ padding: 20px;
   float: left
 }
 	
-	
+a: link{
+	color: #ffd11a;
+}
+
+a: visited{
+	color: gray;
+}
 	
 
 table{
