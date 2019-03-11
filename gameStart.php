@@ -60,11 +60,8 @@
 	<br>
 	
 	
-	<h3>Place Bid:</h3>
 	<h3>Score:<?php echo $_COOKIE["score"]; ?></h3>
-	<h5>Reset</h5>
-	<h4>Correct</h4>
-	<h4>Incorrect</h4>
+
 	
 </body>
 </html>
