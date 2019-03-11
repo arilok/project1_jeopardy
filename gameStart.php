@@ -1,4 +1,9 @@
 <!DOCTYPE html>
+<?php
+	session_start();
+	if(isset($_POST["player_name"]))
+		$_SESSION["name"] = $_POST["player_name"];
+?>
 <html lang = "en">
    
 <head>
@@ -12,7 +17,8 @@
 
 	<h1> JEOPARDY </h1>
 	<br><br>
-	<h2> Welcome <?php print $_POST["player_name"] ?> </h2>
+	
+	<h2> Welcome <?php echo $_SESSION["name"] ?> </h2>
 
 	<table>
 		<tr>

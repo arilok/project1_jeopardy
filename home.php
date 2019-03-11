@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+
 <html lang = "en">
    
 <head>
@@ -16,8 +17,10 @@
 			<h1> Please enter your name: <input type = "text" name = "player_name"> <input type = "submit" value = "submit"></h1>
 	</form>
 	<?php		
-		$value = 0;
+		$value = 0;		
+
 		setcookie("score", $value, time() + 3600);
+		
 	?>
 
 </body>
