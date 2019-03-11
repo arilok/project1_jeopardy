@@ -1,6 +1,6 @@
 body{
-	background-image: url("intro.jpg");
-	background-repeat: no-repeat;
+	background-image: "128.jpg";
+	background-size: cover;
 	background-position: center;
 	background-color: #3366b7;
 }
@@ -8,9 +8,18 @@ body{
 h2{
 	text-align: center;
 	font-size: xx-large;
+	color:  #f2f2f2;
 }
 
 h1{
 	text-align: center;
 	margin-top: 400px;
+	color: #f2f2f2;
+	border: 25px #ff9966;
+}
+h4{
+	text-align: center;
+	margin-top: 400px;
+	color: #f2f2f2;
+	border: 25px #ff9966;
 }
