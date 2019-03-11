@@ -21,13 +21,13 @@ h2{
 h3{
 	color: white;
 	font-family: "Century Gothic", Verdana;
-	text-align: left;
+	text-align: center;
 	font-size: 30px;
 	width: 300px;
-  border: 7px solid  #ff6600;
+  border: 7px solid  #ffffff;
   padding: 20px;
-  margin: 20px;
-  float: left;
+  margin: auto;
+  float: center;
 }
 h4{
 	color: white;
@@ -107,7 +107,7 @@ p{
 .black_space:hover > div {
   border: 5px solid gray;
 }
-.black_spcae:hover > div:hover {
+.black_space:hover > div:hover {
   border: 5px solid gray;
 }
 

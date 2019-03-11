@@ -11,6 +11,7 @@
 
 
 	<h1> JEOPARDY </h1>
+	<br><br>
 	<h2> Welcome <?php print $_POST["player_name"] ?> </h2>
 
 	<table>
@@ -60,21 +61,8 @@
 	<br>
 	
 	
-	<h3>Score:<?php echo $_COOKIE["score"]; ?></h3>
+	<h3 align = "center">Score: <?php echo $_COOKIE["score"]; ?></h3>
 
 	
 </body>
 </html>
-
-
-
-
-
-
-
-
-
-
-
-
-
